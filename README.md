@@ -111,8 +111,14 @@ If `true` the control will snap to point at each `step` (property) between minVa
 #### `step`
 If `enableStep` is `true`, this controls the value of each step. E.g. if this value is 20, the control will snap to values 20,40,60...etc. Set this is you enable the `enableStep` property.
 
-#### `handleImage`
+#### `handleImage -- REMOVED`
 If set the image passed will be used for the handles.
+
+#### `leftImage (handleImage replacement)`
+If set the image passed will be used for the left handler.
+
+#### `rightImage (handleImage replacement)`
+If set the image passed will be used for the right handlet.
 
 #### `handleDiameter`
 If set it will update the size of the handles. Default is `16.0`.
